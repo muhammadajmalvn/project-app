@@ -1,3 +1,4 @@
+import Navbar from '@/components/common/navbar';
 import  Router  from 'next/router'
 import React, { useEffect } from 'react';
 
@@ -15,7 +16,8 @@ console.log(user);
 
   return (
     <div>
-      
+      <Navbar/>
+      Homepage
     </div>
   );
 }
