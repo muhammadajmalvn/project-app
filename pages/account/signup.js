@@ -5,7 +5,7 @@ import { post } from '../../libraries/httpService'
 import { Error} from "../../components/common/alert";
 import  Router  from 'next/router'
 
-const signup = () => {
+const Signup = () => {
 
   const { register, handleSubmit, formState: { errors } } = useForm()
   const onSubmit = async (data) => {
@@ -131,4 +131,4 @@ const signup = () => {
 
   )
 }
-export default signup
+export default Signup

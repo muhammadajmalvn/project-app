@@ -5,7 +5,7 @@ import {post} from '../../libraries/httpService'
 import  Router  from 'next/router'
 import { Error } from '@/components/common/alert'
 
-const login = () => {
+const Login = () => {
 
   const { register, handleSubmit, formState: { errors } } = useForm()
   const onSubmit = async(data) => {
@@ -105,4 +105,4 @@ const login = () => {
     </section>
   )
 }
-export default login
+export default Login
