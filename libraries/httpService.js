@@ -1,6 +1,6 @@
 import axios from 'axios';
 import toast, { Toaster } from "react-hot-toast";
-let apiRoot = process.env.BACKEND_URL;
+let apiRoot = 'http://13.235.254.79:4000/';
 
 const config = {
     headers: {
